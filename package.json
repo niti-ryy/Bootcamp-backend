@@ -1,0 +1,19 @@
+{
+  "name": "dev_camper_api",
+  "version": "1.0.0",
+  "description": "devcamper_backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "NODE_ENV=production node server",
+    "dev":"nodemon server"
+     
+  },
+  "author": "MIT",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": " ^8.4.1",
+    "nodemon": "^3.1.3"
+  }
+}
